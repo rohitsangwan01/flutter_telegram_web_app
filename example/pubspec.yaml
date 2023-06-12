@@ -1,0 +1,25 @@
+name: flutter_telegram_web_example
+publish_to: none
+description: Demonstrates how to use the flutter_telegram_web plugin.
+environment: 
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_telegram_web_app: 
+    path: ../
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/icon.png
+  web: true
+
+
+flutter: 
+  uses-material-design: true
+
